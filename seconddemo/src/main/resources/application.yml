@@ -22,3 +22,8 @@ feign:
     enabled: true
 
 
+
+#logging:
+#  level:
+#    org.springframework.cloud.openfeign: debug
+#    org.springframework.cloud.sleuth: debug
