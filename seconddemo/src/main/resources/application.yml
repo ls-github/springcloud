@@ -16,7 +16,8 @@ eureka:
       defaultZone: http://localhost:8081/eureka/
   instance:
     instance-id: seconddemo_${server.port}
-#    hostname: willdo
+    prefer-ip-address: true
+
 feign:
   hystrix:
     enabled: true
