@@ -10,4 +10,6 @@ eureka:
   instance:
     instance-id: seconddemo_${server.port}
 #    hostname: willdo
-
+feign:
+  hystrix:
+    enabled: true
