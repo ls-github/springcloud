@@ -1,0 +1,21 @@
+server:
+  port: 8051
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ls-github/hello-word.git
+          username: ls-github
+          password: wy19940220
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+  instance:
+    instance-id: configserver_${server.port}
+    prefer-ip-address: true
