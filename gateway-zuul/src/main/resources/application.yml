@@ -10,7 +10,13 @@ eureka:
   instance:
     instance-id: gateway_${server.port}
 
+
 management:
   endpoint:
     health:
       show-details: always
+zuul:
+  routes:
+    firstdemo_service:
+      path: /first/**
+      serviceId: firstdemoclient
