@@ -8,8 +8,8 @@ spring:
       server:
         git:
           uri: https://github.com/ls-github/hello-word.git
-          username: ls-github
-          password: wy19940220
+          username: git_username
+          password: git_password
 
 
 eureka:
