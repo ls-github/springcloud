@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://10.127.6.209:3310/fitstor?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: fitstorPortal
+    password: Abc12345
+    driver-class-name: com.mysql.jdbc.Driver

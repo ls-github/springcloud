@@ -1,0 +1,417 @@
+2019-11-30 19:58:31.228  INFO [seconddemoclient,,,] 1152 --- [main] c.ctgu.seconddemo.SeconddemoApplication  : No active profile set, falling back to default profiles: default
+2019-11-30 19:58:32.602  WARN [seconddemoclient,,,] 1152 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-30 19:58:32.711  WARN [seconddemoclient,,,] 1152 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-11-30 19:58:32.977  INFO [seconddemoclient,,,] 1152 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=30ba2910-6401-308d-8195-7bfe9da1a1bb
+2019-11-30 19:58:33.575  INFO [seconddemoclient,,,] 1152 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cf685a1d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-30 19:58:34.155  INFO [seconddemoclient,,,] 1152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8091 (http)
+2019-11-30 19:58:34.170  INFO [seconddemoclient,,,] 1152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 19:58:34.170  INFO [seconddemoclient,,,] 1152 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-30 19:58:34.329  INFO [seconddemoclient,,,] 1152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-30 19:58:34.330  INFO [seconddemoclient,,,] 1152 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3072 ms
+2019-11-30 19:58:34.555  WARN [seconddemoclient,,,] 1152 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-30 19:58:34.555  INFO [seconddemoclient,,,] 1152 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-30 19:58:34.571  INFO [seconddemoclient,,,] 1152 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@37d3e140
+2019-11-30 19:58:37.899  WARN [seconddemoclient,,,] 1152 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-30 19:58:37.900  INFO [seconddemoclient,,,] 1152 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-30 19:58:38.431  INFO [seconddemoclient,,,] 1152 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 19:58:41.406  WARN [seconddemoclient,,,] 1152 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-30 19:58:42.582  INFO [seconddemoclient,,,] 1152 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-30 19:58:42.743  INFO [seconddemoclient,,,] 1152 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-30 19:58:42.815  INFO [seconddemoclient,,,] 1152 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-30 19:58:43.868  INFO [seconddemoclient,,,] 1152 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-11-30 19:58:43.869  INFO [seconddemoclient,,,] 1152 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-11-30 19:58:44.164  INFO [seconddemoclient,,,] 1152 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-11-30 19:58:44.164  INFO [seconddemoclient,,,] 1152 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-11-30 19:58:44.637  INFO [seconddemoclient,,,] 1152 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-30 19:58:45.469  INFO [seconddemoclient,,,] 1152 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-11-30 19:58:45.470  INFO [seconddemoclient,,,] 1152 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-11-30 19:58:45.470  INFO [seconddemoclient,,,] 1152 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-11-30 19:58:45.470  INFO [seconddemoclient,,,] 1152 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-11-30 19:58:45.470  INFO [seconddemoclient,,,] 1152 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-11-30 19:58:45.471  INFO [seconddemoclient,,,] 1152 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-11-30 19:58:45.471  INFO [seconddemoclient,,,] 1152 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-11-30 19:58:45.767  INFO [seconddemoclient,,,] 1152 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-11-30 19:58:45.772  INFO [seconddemoclient,,,] 1152 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-11-30 19:58:45.776  INFO [seconddemoclient,,,] 1152 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-30 19:58:45.784  INFO [seconddemoclient,,,] 1152 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1575115125781 with initial instances count: 1
+2019-11-30 19:58:45.796  INFO [seconddemoclient,,,] 1152 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECONDDEMOCLIENT with eureka with status UP
+2019-11-30 19:58:45.797  INFO [seconddemoclient,,,] 1152 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1575115125797, current=UP, previous=STARTING]
+2019-11-30 19:58:45.801  INFO [seconddemoclient,,,] 1152 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091: registering service...
+2019-11-30 19:58:45.863  INFO [seconddemoclient,,,] 1152 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - registration status: 204
+2019-11-30 19:58:45.893  INFO [seconddemoclient,,,] 1152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8091 (http) with context path ''
+2019-11-30 19:58:45.894  INFO [seconddemoclient,,,] 1152 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8091
+2019-11-30 19:58:46.675  INFO [seconddemoclient,,,] 1152 --- [main] c.ctgu.seconddemo.SeconddemoApplication  : Started SeconddemoApplication in 19.545 seconds (JVM running for 21.913)
+2019-11-30 19:58:47.422  INFO [seconddemoclient,,,] 1152 --- [RMI TCP Connection(4)-10.102.231.40] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 19:58:47.422  INFO [seconddemoclient,,,] 1152 --- [RMI TCP Connection(4)-10.102.231.40] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 19:58:47.452  INFO [seconddemoclient,,,] 1152 --- [RMI TCP Connection(4)-10.102.231.40] o.s.web.servlet.DispatcherServlet        : Completed initialization in 30 ms
+2019-11-30 19:59:34.487  INFO [seconddemoclient,e36e8f22d133c227,e36e8f22d133c227,true] 1152 --- [http-nio-8091-exec-1] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 19:59:42.932  INFO [seconddemoclient,78585a352ac7dc9b,78585a352ac7dc9b,true] 1152 --- [http-nio-8091-exec-2] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 19:59:43.388  INFO [seconddemoclient,b75153a95f191e84,b75153a95f191e84,true] 1152 --- [http-nio-8091-exec-3] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 19:59:43.540  INFO [seconddemoclient,a7e30e0f2ede5172,a7e30e0f2ede5172,true] 1152 --- [http-nio-8091-exec-4] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 19:59:43.698  INFO [seconddemoclient,833de2c84beafd02,833de2c84beafd02,true] 1152 --- [http-nio-8091-exec-5] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:01:57.804  INFO [seconddemoclient,,,] 1152 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SECONDDEMOCLIENT with eureka with status DOWN
+2019-11-30 20:01:57.805  WARN [seconddemoclient,,,] 1152 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1575115317805, current=DOWN, previous=UP]
+2019-11-30 20:01:57.805  INFO [seconddemoclient,,,] 1152 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091: registering service...
+2019-11-30 20:01:57.812  INFO [seconddemoclient,,,] 1152 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - registration status: 204
+2019-11-30 20:01:57.814  INFO [seconddemoclient,,,] 1152 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-30 20:01:57.882  INFO [seconddemoclient,,,] 1152 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-30 20:02:00.885  INFO [seconddemoclient,,,] 1152 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-11-30 20:02:00.893  INFO [seconddemoclient,,,] 1152 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - deregister  status: 200
+2019-11-30 20:02:00.907  INFO [seconddemoclient,,,] 1152 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-11-30 20:02:12.455  INFO [seconddemoclient,,,] 10624 --- [main] c.ctgu.seconddemo.SeconddemoApplication  : No active profile set, falling back to default profiles: default
+2019-11-30 20:02:13.840  WARN [seconddemoclient,,,] 10624 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-30 20:02:13.941  WARN [seconddemoclient,,,] 10624 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-11-30 20:02:14.198  INFO [seconddemoclient,,,] 10624 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=30ba2910-6401-308d-8195-7bfe9da1a1bb
+2019-11-30 20:02:14.781  INFO [seconddemoclient,,,] 10624 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$55ff0b57] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-30 20:02:15.337  INFO [seconddemoclient,,,] 10624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8091 (http)
+2019-11-30 20:02:15.353  INFO [seconddemoclient,,,] 10624 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 20:02:15.353  INFO [seconddemoclient,,,] 10624 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-30 20:02:15.529  INFO [seconddemoclient,,,] 10624 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-30 20:02:15.530  INFO [seconddemoclient,,,] 10624 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3034 ms
+2019-11-30 20:02:15.768  WARN [seconddemoclient,,,] 10624 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-30 20:02:15.769  INFO [seconddemoclient,,,] 10624 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-30 20:02:15.784  INFO [seconddemoclient,,,] 10624 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@78c74647
+2019-11-30 20:02:18.612  WARN [seconddemoclient,,,] 10624 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-30 20:02:18.612  INFO [seconddemoclient,,,] 10624 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-30 20:02:18.924  INFO [seconddemoclient,,,] 10624 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 20:02:20.476  WARN [seconddemoclient,,,] 10624 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-30 20:02:21.516  INFO [seconddemoclient,,,] 10624 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-30 20:02:21.697  INFO [seconddemoclient,,,] 10624 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-30 20:02:21.786  INFO [seconddemoclient,,,] 10624 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-30 20:02:22.678  INFO [seconddemoclient,,,] 10624 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-11-30 20:02:22.679  INFO [seconddemoclient,,,] 10624 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-11-30 20:02:22.868  INFO [seconddemoclient,,,] 10624 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-11-30 20:02:22.869  INFO [seconddemoclient,,,] 10624 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-11-30 20:02:23.194  INFO [seconddemoclient,,,] 10624 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-30 20:02:23.705  INFO [seconddemoclient,,,] 10624 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-11-30 20:02:23.706  INFO [seconddemoclient,,,] 10624 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-11-30 20:02:23.706  INFO [seconddemoclient,,,] 10624 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-11-30 20:02:23.706  INFO [seconddemoclient,,,] 10624 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-11-30 20:02:23.706  INFO [seconddemoclient,,,] 10624 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-11-30 20:02:23.706  INFO [seconddemoclient,,,] 10624 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-11-30 20:02:23.706  INFO [seconddemoclient,,,] 10624 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-11-30 20:02:23.957  INFO [seconddemoclient,,,] 10624 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-11-30 20:02:23.962  INFO [seconddemoclient,,,] 10624 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-11-30 20:02:23.966  INFO [seconddemoclient,,,] 10624 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-30 20:02:23.972  INFO [seconddemoclient,,,] 10624 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1575115343970 with initial instances count: 2
+2019-11-30 20:02:23.982  INFO [seconddemoclient,,,] 10624 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECONDDEMOCLIENT with eureka with status UP
+2019-11-30 20:02:23.983  INFO [seconddemoclient,,,] 10624 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1575115343983, current=UP, previous=STARTING]
+2019-11-30 20:02:23.987  INFO [seconddemoclient,,,] 10624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091: registering service...
+2019-11-30 20:02:24.043  INFO [seconddemoclient,,,] 10624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - registration status: 204
+2019-11-30 20:02:24.068  INFO [seconddemoclient,,,] 10624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8091 (http) with context path ''
+2019-11-30 20:02:24.069  INFO [seconddemoclient,,,] 10624 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8091
+2019-11-30 20:02:24.838  INFO [seconddemoclient,,,] 10624 --- [main] c.ctgu.seconddemo.SeconddemoApplication  : Started SeconddemoApplication in 16.717 seconds (JVM running for 18.904)
+2019-11-30 20:02:26.195  INFO [seconddemoclient,,,] 10624 --- [RMI TCP Connection(5)-10.102.231.40] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 20:02:26.195  INFO [seconddemoclient,,,] 10624 --- [RMI TCP Connection(5)-10.102.231.40] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 20:02:26.225  INFO [seconddemoclient,,,] 10624 --- [RMI TCP Connection(5)-10.102.231.40] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2019-11-30 20:02:33.337  INFO [seconddemoclient,f2a60f19a6b26ef7,f2a60f19a6b26ef7,true] 10624 --- [http-nio-8091-exec-1] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:02:33.803  INFO [seconddemoclient,993623db62d2c42f,993623db62d2c42f,true] 10624 --- [http-nio-8091-exec-2] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:02:33.963  INFO [seconddemoclient,302e3938f4fc152b,302e3938f4fc152b,true] 10624 --- [http-nio-8091-exec-5] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:02:34.130  INFO [seconddemoclient,6b54cf8cfc0ca8cd,6b54cf8cfc0ca8cd,true] 10624 --- [http-nio-8091-exec-4] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:04:35.385  INFO [seconddemoclient,,,] 10624 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SECONDDEMOCLIENT with eureka with status DOWN
+2019-11-30 20:04:35.386  WARN [seconddemoclient,,,] 10624 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1575115475385, current=DOWN, previous=UP]
+2019-11-30 20:04:35.386  INFO [seconddemoclient,,,] 10624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091: registering service...
+2019-11-30 20:04:35.392  INFO [seconddemoclient,,,] 10624 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-30 20:04:35.393  INFO [seconddemoclient,,,] 10624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - registration status: 204
+2019-11-30 20:04:35.693  INFO [seconddemoclient,,,] 10624 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-30 20:04:38.696  INFO [seconddemoclient,,,] 10624 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-11-30 20:04:38.701  INFO [seconddemoclient,,,] 10624 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - deregister  status: 200
+2019-11-30 20:04:38.714  INFO [seconddemoclient,,,] 10624 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-11-30 20:07:34.654  INFO [seconddemoclient,,,] 8812 --- [main] c.ctgu.seconddemo.SeconddemoApplication  : No active profile set, falling back to default profiles: default
+2019-11-30 20:07:35.842  WARN [seconddemoclient,,,] 8812 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-30 20:07:35.934  WARN [seconddemoclient,,,] 8812 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-11-30 20:07:36.168  INFO [seconddemoclient,,,] 8812 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=30ba2910-6401-308d-8195-7bfe9da1a1bb
+2019-11-30 20:07:36.740  INFO [seconddemoclient,,,] 8812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1ced8793] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-30 20:07:37.298  INFO [seconddemoclient,,,] 8812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8091 (http)
+2019-11-30 20:07:37.317  INFO [seconddemoclient,,,] 8812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 20:07:37.317  INFO [seconddemoclient,,,] 8812 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-30 20:07:37.494  INFO [seconddemoclient,,,] 8812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-30 20:07:37.495  INFO [seconddemoclient,,,] 8812 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2812 ms
+2019-11-30 20:07:37.785  WARN [seconddemoclient,,,] 8812 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-30 20:07:37.785  INFO [seconddemoclient,,,] 8812 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-30 20:07:37.803  INFO [seconddemoclient,,,] 8812 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@51e8d066
+2019-11-30 20:07:40.628  WARN [seconddemoclient,,,] 8812 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-30 20:07:40.628  INFO [seconddemoclient,,,] 8812 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-30 20:07:40.942  INFO [seconddemoclient,,,] 8812 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 20:07:42.457  WARN [seconddemoclient,,,] 8812 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-30 20:07:43.621  INFO [seconddemoclient,,,] 8812 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-30 20:07:43.759  INFO [seconddemoclient,,,] 8812 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-30 20:07:43.818  INFO [seconddemoclient,,,] 8812 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-30 20:07:44.609  INFO [seconddemoclient,,,] 8812 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-11-30 20:07:44.609  INFO [seconddemoclient,,,] 8812 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-11-30 20:07:44.813  INFO [seconddemoclient,,,] 8812 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-11-30 20:07:44.813  INFO [seconddemoclient,,,] 8812 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-11-30 20:07:45.131  INFO [seconddemoclient,,,] 8812 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-30 20:07:45.660  INFO [seconddemoclient,,,] 8812 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-11-30 20:07:45.660  INFO [seconddemoclient,,,] 8812 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-11-30 20:07:45.660  INFO [seconddemoclient,,,] 8812 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-11-30 20:07:45.660  INFO [seconddemoclient,,,] 8812 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-11-30 20:07:45.660  INFO [seconddemoclient,,,] 8812 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-11-30 20:07:45.660  INFO [seconddemoclient,,,] 8812 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-11-30 20:07:45.660  INFO [seconddemoclient,,,] 8812 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-11-30 20:07:46.005  INFO [seconddemoclient,,,] 8812 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-11-30 20:07:46.013  INFO [seconddemoclient,,,] 8812 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-11-30 20:07:46.018  INFO [seconddemoclient,,,] 8812 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-30 20:07:46.031  INFO [seconddemoclient,,,] 8812 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1575115666027 with initial instances count: 1
+2019-11-30 20:07:46.050  INFO [seconddemoclient,,,] 8812 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECONDDEMOCLIENT with eureka with status UP
+2019-11-30 20:07:46.051  INFO [seconddemoclient,,,] 8812 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1575115666051, current=UP, previous=STARTING]
+2019-11-30 20:07:46.056  INFO [seconddemoclient,,,] 8812 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091: registering service...
+2019-11-30 20:07:46.139  INFO [seconddemoclient,,,] 8812 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - registration status: 204
+2019-11-30 20:07:46.198  INFO [seconddemoclient,,,] 8812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8091 (http) with context path ''
+2019-11-30 20:07:46.199  INFO [seconddemoclient,,,] 8812 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8091
+2019-11-30 20:07:47.102  INFO [seconddemoclient,,,] 8812 --- [main] c.ctgu.seconddemo.SeconddemoApplication  : Started SeconddemoApplication in 16.164 seconds (JVM running for 18.318)
+2019-11-30 20:07:48.159  INFO [seconddemoclient,,,] 8812 --- [RMI TCP Connection(4)-10.102.231.40] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 20:07:48.159  INFO [seconddemoclient,,,] 8812 --- [RMI TCP Connection(4)-10.102.231.40] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 20:07:48.193  INFO [seconddemoclient,,,] 8812 --- [RMI TCP Connection(4)-10.102.231.40] o.s.web.servlet.DispatcherServlet        : Completed initialization in 34 ms
+2019-11-30 20:08:22.888  INFO [seconddemoclient,7c588909afe856fa,7c588909afe856fa,true] 8812 --- [http-nio-8091-exec-1] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:09:12.445  INFO [seconddemoclient,,,] 8812 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SECONDDEMOCLIENT with eureka with status DOWN
+2019-11-30 20:09:12.445  WARN [seconddemoclient,,,] 8812 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1575115752445, current=DOWN, previous=UP]
+2019-11-30 20:09:12.445  INFO [seconddemoclient,,,] 8812 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091: registering service...
+2019-11-30 20:09:12.451  INFO [seconddemoclient,,,] 8812 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - registration status: 204
+2019-11-30 20:09:12.452  INFO [seconddemoclient,,,] 8812 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-30 20:09:12.665  INFO [seconddemoclient,,,] 8812 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-30 20:09:15.668  INFO [seconddemoclient,,,] 8812 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-11-30 20:09:15.673  INFO [seconddemoclient,,,] 8812 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - deregister  status: 200
+2019-11-30 20:09:15.683  INFO [seconddemoclient,,,] 8812 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-11-30 20:09:27.278  INFO [seconddemoclient,,,] 5056 --- [main] c.ctgu.seconddemo.SeconddemoApplication  : No active profile set, falling back to default profiles: default
+2019-11-30 20:09:28.457  WARN [seconddemoclient,,,] 5056 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-30 20:09:28.545  WARN [seconddemoclient,,,] 5056 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-11-30 20:09:28.765  INFO [seconddemoclient,,,] 5056 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=30ba2910-6401-308d-8195-7bfe9da1a1bb
+2019-11-30 20:09:29.317  INFO [seconddemoclient,,,] 5056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$67fd1947] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-30 20:09:29.837  INFO [seconddemoclient,,,] 5056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8091 (http)
+2019-11-30 20:09:29.851  INFO [seconddemoclient,,,] 5056 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 20:09:29.851  INFO [seconddemoclient,,,] 5056 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-30 20:09:30.016  INFO [seconddemoclient,,,] 5056 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-30 20:09:30.016  INFO [seconddemoclient,,,] 5056 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2708 ms
+2019-11-30 20:09:30.234  WARN [seconddemoclient,,,] 5056 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-30 20:09:30.234  INFO [seconddemoclient,,,] 5056 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-30 20:09:30.248  INFO [seconddemoclient,,,] 5056 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3a40bb52
+2019-11-30 20:09:32.983  WARN [seconddemoclient,,,] 5056 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-30 20:09:32.984  INFO [seconddemoclient,,,] 5056 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-30 20:09:33.270  INFO [seconddemoclient,,,] 5056 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 20:09:34.632  WARN [seconddemoclient,,,] 5056 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-30 20:09:35.646  INFO [seconddemoclient,,,] 5056 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-30 20:09:35.782  INFO [seconddemoclient,,,] 5056 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-30 20:09:35.846  INFO [seconddemoclient,,,] 5056 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-30 20:09:36.613  INFO [seconddemoclient,,,] 5056 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-11-30 20:09:36.613  INFO [seconddemoclient,,,] 5056 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-11-30 20:09:36.798  INFO [seconddemoclient,,,] 5056 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-11-30 20:09:36.798  INFO [seconddemoclient,,,] 5056 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-11-30 20:09:37.098  INFO [seconddemoclient,,,] 5056 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-30 20:09:37.581  INFO [seconddemoclient,,,] 5056 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-11-30 20:09:37.581  INFO [seconddemoclient,,,] 5056 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-11-30 20:09:37.581  INFO [seconddemoclient,,,] 5056 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-11-30 20:09:37.581  INFO [seconddemoclient,,,] 5056 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-11-30 20:09:37.582  INFO [seconddemoclient,,,] 5056 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-11-30 20:09:37.582  INFO [seconddemoclient,,,] 5056 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-11-30 20:09:37.582  INFO [seconddemoclient,,,] 5056 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-11-30 20:09:37.830  INFO [seconddemoclient,,,] 5056 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-11-30 20:09:37.836  INFO [seconddemoclient,,,] 5056 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-11-30 20:09:37.840  INFO [seconddemoclient,,,] 5056 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-30 20:09:37.845  INFO [seconddemoclient,,,] 5056 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1575115777844 with initial instances count: 1
+2019-11-30 20:09:37.857  INFO [seconddemoclient,,,] 5056 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECONDDEMOCLIENT with eureka with status UP
+2019-11-30 20:09:37.858  INFO [seconddemoclient,,,] 5056 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1575115777858, current=UP, previous=STARTING]
+2019-11-30 20:09:37.861  INFO [seconddemoclient,,,] 5056 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091: registering service...
+2019-11-30 20:09:37.920  INFO [seconddemoclient,,,] 5056 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - registration status: 204
+2019-11-30 20:09:37.944  INFO [seconddemoclient,,,] 5056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8091 (http) with context path ''
+2019-11-30 20:09:37.945  INFO [seconddemoclient,,,] 5056 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8091
+2019-11-30 20:09:38.663  INFO [seconddemoclient,,,] 5056 --- [main] c.ctgu.seconddemo.SeconddemoApplication  : Started SeconddemoApplication in 15.307 seconds (JVM running for 17.626)
+2019-11-30 20:09:40.008  INFO [seconddemoclient,,,] 5056 --- [RMI TCP Connection(3)-10.102.231.40] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 20:09:40.009  INFO [seconddemoclient,,,] 5056 --- [RMI TCP Connection(3)-10.102.231.40] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 20:09:40.036  INFO [seconddemoclient,,,] 5056 --- [RMI TCP Connection(3)-10.102.231.40] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+2019-11-30 20:09:49.737  INFO [seconddemoclient,f3feeb7be7314f35,f3feeb7be7314f35,true] 5056 --- [http-nio-8091-exec-2] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:14:37.584  INFO [seconddemoclient,,,] 5056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-30 20:19:06.965  INFO [seconddemoclient,f037f6901d9740ef,f037f6901d9740ef,true] 5056 --- [http-nio-8091-exec-3] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:19:36.053  INFO [seconddemoclient,f4db02d00ed21488,f4db02d00ed21488,true] 5056 --- [http-nio-8091-exec-7] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:19:37.587  INFO [seconddemoclient,,,] 5056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-30 20:24:37.589  INFO [seconddemoclient,,,] 5056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-30 20:29:25.118  INFO [seconddemoclient,,,] 5056 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SECONDDEMOCLIENT with eureka with status DOWN
+2019-11-30 20:29:25.119  WARN [seconddemoclient,,,] 5056 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1575116965119, current=DOWN, previous=UP]
+2019-11-30 20:29:25.127  INFO [seconddemoclient,,,] 5056 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091: registering service...
+2019-11-30 20:29:25.135  INFO [seconddemoclient,,,] 5056 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - registration status: 204
+2019-11-30 20:29:25.143  INFO [seconddemoclient,,,] 5056 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-30 20:29:25.664  INFO [seconddemoclient,,,] 5056 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-30 20:29:28.666  INFO [seconddemoclient,,,] 5056 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-11-30 20:29:28.672  INFO [seconddemoclient,,,] 5056 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - deregister  status: 200
+2019-11-30 20:29:28.687  INFO [seconddemoclient,,,] 5056 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-11-30 20:29:40.607  INFO [seconddemoclient,,,] 9180 --- [main] c.ctgu.seconddemo.SeconddemoApplication  : No active profile set, falling back to default profiles: default
+2019-11-30 20:29:41.795  WARN [seconddemoclient,,,] 9180 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-30 20:29:41.887  WARN [seconddemoclient,,,] 9180 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-11-30 20:29:42.122  INFO [seconddemoclient,,,] 9180 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=30ba2910-6401-308d-8195-7bfe9da1a1bb
+2019-11-30 20:29:42.694  INFO [seconddemoclient,,,] 9180 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$92d91444] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-30 20:29:43.228  INFO [seconddemoclient,,,] 9180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8091 (http)
+2019-11-30 20:29:43.242  INFO [seconddemoclient,,,] 9180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 20:29:43.242  INFO [seconddemoclient,,,] 9180 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-30 20:29:43.406  INFO [seconddemoclient,,,] 9180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-30 20:29:43.406  INFO [seconddemoclient,,,] 9180 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2769 ms
+2019-11-30 20:29:43.625  WARN [seconddemoclient,,,] 9180 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-30 20:29:43.625  INFO [seconddemoclient,,,] 9180 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-30 20:29:43.639  INFO [seconddemoclient,,,] 9180 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@79add732
+2019-11-30 20:29:46.415  WARN [seconddemoclient,,,] 9180 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-30 20:29:46.415  INFO [seconddemoclient,,,] 9180 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-30 20:29:46.711  INFO [seconddemoclient,,,] 9180 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 20:29:48.127  WARN [seconddemoclient,,,] 9180 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-30 20:29:49.114  INFO [seconddemoclient,,,] 9180 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-30 20:29:49.255  INFO [seconddemoclient,,,] 9180 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-30 20:29:49.317  INFO [seconddemoclient,,,] 9180 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-30 20:29:50.107  INFO [seconddemoclient,,,] 9180 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-11-30 20:29:50.108  INFO [seconddemoclient,,,] 9180 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-11-30 20:29:50.299  INFO [seconddemoclient,,,] 9180 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-11-30 20:29:50.299  INFO [seconddemoclient,,,] 9180 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-11-30 20:29:50.607  INFO [seconddemoclient,,,] 9180 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-30 20:29:51.105  INFO [seconddemoclient,,,] 9180 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-11-30 20:29:51.105  INFO [seconddemoclient,,,] 9180 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-11-30 20:29:51.105  INFO [seconddemoclient,,,] 9180 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-11-30 20:29:51.105  INFO [seconddemoclient,,,] 9180 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-11-30 20:29:51.105  INFO [seconddemoclient,,,] 9180 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-11-30 20:29:51.105  INFO [seconddemoclient,,,] 9180 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-11-30 20:29:51.105  INFO [seconddemoclient,,,] 9180 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-11-30 20:29:51.355  INFO [seconddemoclient,,,] 9180 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-11-30 20:29:51.358  INFO [seconddemoclient,,,] 9180 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-11-30 20:29:51.362  INFO [seconddemoclient,,,] 9180 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-30 20:29:51.368  INFO [seconddemoclient,,,] 9180 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1575116991366 with initial instances count: 1
+2019-11-30 20:29:51.379  INFO [seconddemoclient,,,] 9180 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECONDDEMOCLIENT with eureka with status UP
+2019-11-30 20:29:51.380  INFO [seconddemoclient,,,] 9180 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1575116991380, current=UP, previous=STARTING]
+2019-11-30 20:29:51.385  INFO [seconddemoclient,,,] 9180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091: registering service...
+2019-11-30 20:29:51.441  INFO [seconddemoclient,,,] 9180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - registration status: 204
+2019-11-30 20:29:51.467  INFO [seconddemoclient,,,] 9180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8091 (http) with context path ''
+2019-11-30 20:29:51.469  INFO [seconddemoclient,,,] 9180 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8091
+2019-11-30 20:29:52.218  INFO [seconddemoclient,,,] 9180 --- [main] c.ctgu.seconddemo.SeconddemoApplication  : Started SeconddemoApplication in 15.327 seconds (JVM running for 17.617)
+2019-11-30 20:29:53.153  INFO [seconddemoclient,,,] 9180 --- [RMI TCP Connection(1)-10.102.231.40] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 20:29:53.153  INFO [seconddemoclient,,,] 9180 --- [RMI TCP Connection(1)-10.102.231.40] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 20:29:53.185  INFO [seconddemoclient,,,] 9180 --- [RMI TCP Connection(1)-10.102.231.40] o.s.web.servlet.DispatcherServlet        : Completed initialization in 31 ms
+2019-11-30 20:30:04.777  INFO [seconddemoclient,2ba6c07aed2b485d,2ba6c07aed2b485d,true] 9180 --- [http-nio-8091-exec-2] c.ctgu.seconddemo.feign.FeignController  : [0:0:0:0:0:0:0:1],[http://localhost:8091/log],[org.apache.catalina.util.ParameterMap@444db80]
+2019-11-30 20:30:04.778  INFO [seconddemoclient,2ba6c07aed2b485d,2ba6c07aed2b485d,true] 9180 --- [http-nio-8091-exec-2] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:30:36.919  INFO [seconddemoclient,7ad51fb32aef6152,7ad51fb32aef6152,true] 9180 --- [http-nio-8091-exec-6] c.ctgu.seconddemo.feign.FeignController  : [0:0:0:0:0:0:0:1],[http://localhost:8091/log],[org.apache.catalina.util.ParameterMap@444db80]
+2019-11-30 20:30:36.919  INFO [seconddemoclient,7ad51fb32aef6152,7ad51fb32aef6152,true] 9180 --- [http-nio-8091-exec-6] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:30:44.546  INFO [seconddemoclient,9a9bbf4ea90a5e35,9a9bbf4ea90a5e35,true] 9180 --- [http-nio-8091-exec-7] c.ctgu.seconddemo.feign.FeignController  : [0:0:0:0:0:0:0:1],[http://localhost:8091/log],[org.apache.catalina.util.ParameterMap@444db80]
+2019-11-30 20:30:44.547  INFO [seconddemoclient,9a9bbf4ea90a5e35,9a9bbf4ea90a5e35,true] 9180 --- [http-nio-8091-exec-7] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:32:31.662  INFO [seconddemoclient,d8be58ec3533c13e,d8be58ec3533c13e,true] 9180 --- [http-nio-8091-exec-9] c.ctgu.seconddemo.feign.FeignController  : [0:0:0:0:0:0:0:1],[http://localhost:8091/log],[org.apache.catalina.util.ParameterMap@444db80]
+2019-11-30 20:32:31.662  INFO [seconddemoclient,d8be58ec3533c13e,d8be58ec3533c13e,true] 9180 --- [http-nio-8091-exec-9] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:32:31.730  INFO [seconddemoclient,,,] 9180 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SECONDDEMOCLIENT with eureka with status DOWN
+2019-11-30 20:32:31.730  WARN [seconddemoclient,,,] 9180 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1575117151730, current=DOWN, previous=UP]
+2019-11-30 20:32:31.730  INFO [seconddemoclient,,,] 9180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091: registering service...
+2019-11-30 20:32:31.738  INFO [seconddemoclient,,,] 9180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - registration status: 204
+2019-11-30 20:32:31.741  INFO [seconddemoclient,,,] 9180 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-30 20:32:32.674  INFO [seconddemoclient,,,] 9180 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-30 20:32:35.677  INFO [seconddemoclient,,,] 9180 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-11-30 20:32:35.681  INFO [seconddemoclient,,,] 9180 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - deregister  status: 200
+2019-11-30 20:32:35.695  INFO [seconddemoclient,,,] 9180 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-11-30 20:38:36.001  INFO [seconddemoclient,,,] 12636 --- [main] c.ctgu.seconddemo.SeconddemoApplication  : No active profile set, falling back to default profiles: default
+2019-11-30 20:38:37.334  WARN [seconddemoclient,,,] 12636 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-30 20:38:37.462  WARN [seconddemoclient,,,] 12636 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-11-30 20:38:37.723  INFO [seconddemoclient,,,] 12636 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=30ba2910-6401-308d-8195-7bfe9da1a1bb
+2019-11-30 20:38:38.372  INFO [seconddemoclient,,,] 12636 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1aadc11e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-30 20:38:39.044  INFO [seconddemoclient,,,] 12636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8091 (http)
+2019-11-30 20:38:39.062  INFO [seconddemoclient,,,] 12636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 20:38:39.063  INFO [seconddemoclient,,,] 12636 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-30 20:38:39.253  INFO [seconddemoclient,,,] 12636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-30 20:38:39.253  INFO [seconddemoclient,,,] 12636 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3206 ms
+2019-11-30 20:38:39.508  WARN [seconddemoclient,,,] 12636 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-30 20:38:39.509  INFO [seconddemoclient,,,] 12636 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-30 20:38:39.527  INFO [seconddemoclient,,,] 12636 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7f0d8eff
+2019-11-30 20:38:42.647  WARN [seconddemoclient,,,] 12636 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-30 20:38:42.647  INFO [seconddemoclient,,,] 12636 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-30 20:38:42.942  INFO [seconddemoclient,,,] 12636 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 20:38:44.644  WARN [seconddemoclient,,,] 12636 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-30 20:38:45.811  INFO [seconddemoclient,,,] 12636 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-30 20:38:45.962  INFO [seconddemoclient,,,] 12636 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-30 20:38:46.029  INFO [seconddemoclient,,,] 12636 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-30 20:38:46.958  INFO [seconddemoclient,,,] 12636 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-11-30 20:38:46.958  INFO [seconddemoclient,,,] 12636 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-11-30 20:38:47.176  INFO [seconddemoclient,,,] 12636 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-11-30 20:38:47.177  INFO [seconddemoclient,,,] 12636 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-11-30 20:38:47.758  INFO [seconddemoclient,,,] 12636 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-30 20:38:48.579  INFO [seconddemoclient,,,] 12636 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-11-30 20:38:48.579  INFO [seconddemoclient,,,] 12636 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-11-30 20:38:48.580  INFO [seconddemoclient,,,] 12636 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-11-30 20:38:48.580  INFO [seconddemoclient,,,] 12636 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-11-30 20:38:48.580  INFO [seconddemoclient,,,] 12636 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-11-30 20:38:48.580  INFO [seconddemoclient,,,] 12636 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-11-30 20:38:48.580  INFO [seconddemoclient,,,] 12636 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-11-30 20:38:48.867  INFO [seconddemoclient,,,] 12636 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-11-30 20:38:48.871  INFO [seconddemoclient,,,] 12636 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-11-30 20:38:48.875  INFO [seconddemoclient,,,] 12636 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-30 20:38:48.882  INFO [seconddemoclient,,,] 12636 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1575117528880 with initial instances count: 1
+2019-11-30 20:38:48.893  INFO [seconddemoclient,,,] 12636 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECONDDEMOCLIENT with eureka with status UP
+2019-11-30 20:38:48.893  INFO [seconddemoclient,,,] 12636 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1575117528893, current=UP, previous=STARTING]
+2019-11-30 20:38:48.898  INFO [seconddemoclient,,,] 12636 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091: registering service...
+2019-11-30 20:38:48.959  INFO [seconddemoclient,,,] 12636 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - registration status: 204
+2019-11-30 20:38:48.985  INFO [seconddemoclient,,,] 12636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8091 (http) with context path ''
+2019-11-30 20:38:48.986  INFO [seconddemoclient,,,] 12636 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8091
+2019-11-30 20:38:49.778  INFO [seconddemoclient,,,] 12636 --- [main] c.ctgu.seconddemo.SeconddemoApplication  : Started SeconddemoApplication in 18.494 seconds (JVM running for 20.928)
+2019-11-30 20:38:50.835  INFO [seconddemoclient,,,] 12636 --- [RMI TCP Connection(4)-10.102.231.40] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 20:38:50.836  INFO [seconddemoclient,,,] 12636 --- [RMI TCP Connection(4)-10.102.231.40] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 20:38:50.862  INFO [seconddemoclient,,,] 12636 --- [RMI TCP Connection(4)-10.102.231.40] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2019-11-30 20:39:29.010  INFO [seconddemoclient,85bda2fc16556060,85bda2fc16556060,true] 12636 --- [http-nio-8091-exec-1] c.ctgu.seconddemo.feign.FeignController  : [0:0:0:0:0:0:0:1],[http://localhost:8091/log],[{"name":["zhangsa"]}]
+2019-11-30 20:39:29.010  INFO [seconddemoclient,85bda2fc16556060,85bda2fc16556060,true] 12636 --- [http-nio-8091-exec-1] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:39:56.817  INFO [seconddemoclient,227ca90102e3d87a,227ca90102e3d87a,true] 12636 --- [http-nio-8091-exec-3] c.ctgu.seconddemo.feign.FeignController  : [0:0:0:0:0:0:0:1],[http://localhost:8091/log],[{"name":["zhangsa"],"age":["19"]}]
+2019-11-30 20:39:56.818  INFO [seconddemoclient,227ca90102e3d87a,227ca90102e3d87a,true] 12636 --- [http-nio-8091-exec-3] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:40:28.343  INFO [seconddemoclient,56308de3ceda7669,56308de3ceda7669,true] 12636 --- [http-nio-8091-exec-5] c.ctgu.seconddemo.feign.FeignController  : [0:0:0:0:0:0:0:1],[http://localhost:8091/log],[{"name":["zhangsa"],"age":["19"]}]
+2019-11-30 20:40:28.343  INFO [seconddemoclient,56308de3ceda7669,56308de3ceda7669,true] 12636 --- [http-nio-8091-exec-5] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:40:28.419  INFO [seconddemoclient,,,] 12636 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SECONDDEMOCLIENT with eureka with status DOWN
+2019-11-30 20:40:28.420  WARN [seconddemoclient,,,] 12636 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1575117628420, current=DOWN, previous=UP]
+2019-11-30 20:40:28.420  INFO [seconddemoclient,,,] 12636 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091: registering service...
+2019-11-30 20:40:28.427  INFO [seconddemoclient,,,] 12636 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - registration status: 204
+2019-11-30 20:40:28.427  INFO [seconddemoclient,,,] 12636 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-30 20:40:29.359  INFO [seconddemoclient,,,] 12636 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-30 20:40:32.360  INFO [seconddemoclient,,,] 12636 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-11-30 20:40:32.366  INFO [seconddemoclient,,,] 12636 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - deregister  status: 200
+2019-11-30 20:40:32.380  INFO [seconddemoclient,,,] 12636 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-11-30 20:50:13.876  INFO [seconddemoclient,,,] 7180 --- [main] c.ctgu.seconddemo.SeconddemoApplication  : No active profile set, falling back to default profiles: default
+2019-11-30 20:50:16.066  WARN [seconddemoclient,,,] 7180 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-11-30 20:50:16.325  WARN [seconddemoclient,,,] 7180 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-11-30 20:50:16.785  INFO [seconddemoclient,,,] 7180 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=30ba2910-6401-308d-8195-7bfe9da1a1bb
+2019-11-30 20:50:17.631  INFO [seconddemoclient,,,] 7180 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$61c01a6a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-30 20:50:18.282  INFO [seconddemoclient,,,] 7180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8091 (http)
+2019-11-30 20:50:18.297  INFO [seconddemoclient,,,] 7180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-30 20:50:18.298  INFO [seconddemoclient,,,] 7180 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-30 20:50:18.482  INFO [seconddemoclient,,,] 7180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-30 20:50:18.483  INFO [seconddemoclient,,,] 7180 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4568 ms
+2019-11-30 20:50:18.739  WARN [seconddemoclient,,,] 7180 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-30 20:50:18.739  INFO [seconddemoclient,,,] 7180 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-30 20:50:18.758  INFO [seconddemoclient,,,] 7180 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6562cc23
+2019-11-30 20:50:22.103  WARN [seconddemoclient,,,] 7180 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-11-30 20:50:22.103  INFO [seconddemoclient,,,] 7180 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-30 20:50:22.522  INFO [seconddemoclient,,,] 7180 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-30 20:50:23.987  WARN [seconddemoclient,,,] 7180 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-11-30 20:50:25.057  INFO [seconddemoclient,,,] 7180 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-11-30 20:50:25.213  INFO [seconddemoclient,,,] 7180 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-11-30 20:50:25.286  INFO [seconddemoclient,,,] 7180 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-11-30 20:50:26.139  INFO [seconddemoclient,,,] 7180 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-11-30 20:50:26.139  INFO [seconddemoclient,,,] 7180 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-11-30 20:50:26.359  INFO [seconddemoclient,,,] 7180 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-11-30 20:50:26.359  INFO [seconddemoclient,,,] 7180 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-11-30 20:50:26.785  INFO [seconddemoclient,,,] 7180 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-11-30 20:50:27.289  INFO [seconddemoclient,,,] 7180 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-11-30 20:50:27.289  INFO [seconddemoclient,,,] 7180 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-11-30 20:50:27.289  INFO [seconddemoclient,,,] 7180 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-11-30 20:50:27.289  INFO [seconddemoclient,,,] 7180 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-11-30 20:50:27.289  INFO [seconddemoclient,,,] 7180 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-11-30 20:50:27.289  INFO [seconddemoclient,,,] 7180 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-11-30 20:50:27.289  INFO [seconddemoclient,,,] 7180 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-11-30 20:50:27.569  INFO [seconddemoclient,,,] 7180 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-11-30 20:50:27.574  INFO [seconddemoclient,,,] 7180 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-11-30 20:50:27.578  INFO [seconddemoclient,,,] 7180 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-30 20:50:27.586  INFO [seconddemoclient,,,] 7180 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1575118227584 with initial instances count: 1
+2019-11-30 20:50:27.598  INFO [seconddemoclient,,,] 7180 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECONDDEMOCLIENT with eureka with status UP
+2019-11-30 20:50:27.599  INFO [seconddemoclient,,,] 7180 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1575118227599, current=UP, previous=STARTING]
+2019-11-30 20:50:27.602  INFO [seconddemoclient,,,] 7180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091: registering service...
+2019-11-30 20:50:27.661  INFO [seconddemoclient,,,] 7180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - registration status: 204
+2019-11-30 20:50:27.687  INFO [seconddemoclient,,,] 7180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8091 (http) with context path ''
+2019-11-30 20:50:27.688  INFO [seconddemoclient,,,] 7180 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8091
+2019-11-30 20:50:28.445  INFO [seconddemoclient,,,] 7180 --- [main] c.ctgu.seconddemo.SeconddemoApplication  : Started SeconddemoApplication in 20.943 seconds (JVM running for 23.447)
+2019-11-30 20:50:29.449  INFO [seconddemoclient,,,] 7180 --- [RMI TCP Connection(3)-10.102.231.40] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-30 20:50:29.450  INFO [seconddemoclient,,,] 7180 --- [RMI TCP Connection(3)-10.102.231.40] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-30 20:50:29.480  INFO [seconddemoclient,,,] 7180 --- [RMI TCP Connection(3)-10.102.231.40] o.s.web.servlet.DispatcherServlet        : Completed initialization in 30 ms
+2019-11-30 20:51:21.689  INFO [seconddemoclient,0ececbc61a6a3937,0ececbc61a6a3937,true] 7180 --- [http-nio-8091-exec-1] c.ctgu.seconddemo.feign.FeignController  : [0:0:0:0:0:0:0:1],[http://localhost:8091/log],[{"name":["zhangsa"],"age":["19"]}]
+2019-11-30 20:51:21.697  INFO [seconddemoclient,0ececbc61a6a3937,0ececbc61a6a3937,true] 7180 --- [http-nio-8091-exec-1] c.ctgu.seconddemo.feign.FeignController  : 记录日志！！
+2019-11-30 20:53:21.686  INFO [seconddemoclient,,,] 7180 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SECONDDEMOCLIENT with eureka with status DOWN
+2019-11-30 20:53:21.687  WARN [seconddemoclient,,,] 7180 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1575118401687, current=DOWN, previous=UP]
+2019-11-30 20:53:21.687  INFO [seconddemoclient,,,] 7180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091: registering service...
+2019-11-30 20:53:21.693  INFO [seconddemoclient,,,] 7180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - registration status: 204
+2019-11-30 20:53:21.695  INFO [seconddemoclient,,,] 7180 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-30 20:53:21.831  INFO [seconddemoclient,,,] 7180 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-11-30 20:53:24.833  INFO [seconddemoclient,,,] 7180 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-11-30 20:53:24.837  INFO [seconddemoclient,,,] 7180 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECONDDEMOCLIENT/seconddemo_8091 - deregister  status: 200
+2019-11-30 20:53:24.847  INFO [seconddemoclient,,,] 7180 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

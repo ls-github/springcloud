@@ -1,8 +1,56 @@
 server:
   port: 8082
+
 spring:
+  data:
+    elasticsearch:
+      cluster-nodes: localhost:9300
+      cluster-name: elasticsearch
+
+#  jpa:
+#    open-in-view: true
+#    database: MYSQL
+#    show-sql: false
+#    properties:
+#      hibernate:
+#        temp:
+#          use_jdbc_metadata_defaults: false
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://10.127.6.209:3310/fitstor?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: fitstorPortal
+    password: Abc12345
+    driver-class-name: com.mysql.jdbc.Driver
+
   application:
     name: firstdemoclient
+
+  redis:
+    host: 10.127.6.209
+    port: 6379
+  rabbitmq:
+    host: 10.127.6.209
+    port: 5672
+    username: guest
+    password: guest
+
+  mail:
+    host: smtp.fiberhome.com
+    port: 465
+    username: unm2000@fiberhome.com
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+            required: true
+          connectiontimeout: 3000
+          timeout: 5000
+          writetimeout: 5000
+
+
+
 eureka:
   client:
     service-url:
@@ -12,7 +60,12 @@ eureka:
     prefer-ip-address: true
 
 
+
+
+
 management:
   endpoint:
     health:
       show-details: always
+
+
