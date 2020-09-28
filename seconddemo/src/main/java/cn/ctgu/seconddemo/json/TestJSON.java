@@ -47,5 +47,8 @@ public class TestJSON {
 // 获取星期
         DayOfWeek dayOfWeek = localDate.getDayOfWeek();   //结果：TUESDAY
         int dayOfWeek1 = localDate.get(ChronoField.DAY_OF_WEEK); //结果：2
+
+
+        System.out.println("commit 1");
     }
 }
