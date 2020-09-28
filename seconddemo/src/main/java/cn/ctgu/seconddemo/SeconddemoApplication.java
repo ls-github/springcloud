@@ -15,6 +15,7 @@ public class SeconddemoApplication {
     public static void main(String[] args) {
         System.out.println("commit 3");
         SpringApplication.run(SeconddemoApplication.class, args);
+        System.out.println("comit 4");
     }
 
 }
