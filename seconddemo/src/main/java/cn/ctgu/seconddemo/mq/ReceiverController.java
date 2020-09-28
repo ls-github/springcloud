@@ -12,8 +12,6 @@ public class ReceiverController {
 
     @RabbitHandler
     public void process(String hello){
-        System.out.println("commit 2");
-
         System.out.println("Receiver:" + hello);
     }
 
