@@ -1,0 +1,12 @@
+{
+  "hints":[],
+  "groups":[],
+  "properties": [
+    {
+      "sourceType": "cn.ctgu.alibaba.mystarter.config.PersonPerproties",
+      "name": "person.name",
+      "description": "用户名",
+      "type": "java.lang.String"
+    }
+  ]
+}
